@@ -11,9 +11,9 @@ const GameOver: React.FC<Props> = ({ didWin }) => {
 
   return (
     <div className="absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-gray-300 bg-opacity-50 min-w-screen min-h-screen flex justify-center items-center">
-      <div className="px-20 py-12 shadow-xl bg-white rounded-md text-center">
+      <div className="px-10 xs:px-20 py-12 shadow-xl bg-white rounded-md text-center">
         <h2 className="font-medium text-lg mb-2">
-          {didWin ? "Congratulations! You won!" : "You lost!"}
+          {didWin ? "You won!" : "You lost!"}
         </h2>
         <h3 className="font-medium text-sm text-gray-700 mb-8">{`The word was ${word}`}</h3>
         <span

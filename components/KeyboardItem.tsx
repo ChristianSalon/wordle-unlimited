@@ -40,7 +40,7 @@ const KeyboardItem: React.FC<Props> = ({ item }) => {
 
   return (
     <div
-      className={`${bgColor} flex justify-center items-center px-2 xs:px-4 py-2 xs:py-2 mx-1 cursor-pointer rounded-sm xs:rounded-md text-sm xs:text-lg`}
+      className={`${bgColor} flex justify-center items-center px-2 xs:px-4 py-2 xs:py-2 mr-1 xs:mx-1 cursor-pointer rounded-sm xs:rounded-md text-sm xs:text-lg`}
       onClick={onClick}
     >
       {item}
